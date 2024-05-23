@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+    <link href="./output.css" rel="stylesheet" />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | FAQ accordion</title>
+
+    <style>
+      .attribution {
+        font-size: 14px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body
+    class="font-WorkSans text-DarkPurple flex flex-col items-center min-h-screen h-lvh m-0 bg-LightPink"
+  >
+    <header
+      class="min-w-full md:min-h-80 min-h-56 bg-body-mobile md:bg-body z-0"
+    ></header>
+    <main
+      class="w-[330px] -mt-[164px] z-10 md:w-[600px] mx-auto shadow-lg rounded-md md:rounded-2xl bg-white px-6 md:px-10 pt-1 md:pt-5"
+    >
+      <div class="flex items-center pt-6 md:pb-2 gap-6">
+        <img class="w-6 md:w-10" src="assets/images/icon-star.svg" alt="star" />
+        <h1 class="text-3xl md:text-6xl font-bold">FAQs</h1>
+      </div>
+      <!-- FIRST -->
+      <details class="py-4 md:py-6">
+        <summary
+          class="title.js hover:cursor-pointer md:text-lg font-semibold flex items-center justify-between"
+        >
+          What is Frontend Mentor, and how will it help me?
+          <img
+            class="icon plus"
+            src="assets/images/icon-plus.svg"
+            alt="plus icon"
+          />
+          <img
+            class="icon minus"
+            src="assets/images/icon-minus.svg"
+            style="display: none"
+            alt="minus icon"
+          />
+        </summary>
+
+        <p class="py-4 border-b-1 text-GrayishPurple">
+          Frontend Mentor offers realistic coding challenges to help developers
+          improve their frontend coding skills with projects in HTML, CSS, and
+          JavaScript. It's suitable for all levels and ideal for portfolio
+          building.
+        </p>
+      </details>
+      <hr />
+      <!-- SECOUND -->
+      <details class="py-4 md:py-6">
+        <summary
+          class="title.js hover:cursor-pointer md:text-lg font-semibold flex items-center justify-between"
+        >
+          Is Frontend Mentor free?
+          <img
+            class="icon plus"
+            src="assets/images/icon-plus.svg"
+            alt="plus icon"
+          />
+          <img
+            class="icon minus"
+            src="assets/images/icon-minus.svg"
+            style="display: none"
+            alt="minus icon"
+          />
+        </summary>
+
+        <p class="py-4 border-b-1 text-GrayishPurple">
+          Yes, Frontend Mentor offers both free and premium coding challenges,
+          with the free option providing access to a range of projects suitable
+          for all skill levels.
+        </p>
+      </details>
+      <hr />
+
+      <!-- THIRD -->
+      <details class="py-4 md:py-6">
+        <summary
+          class="title.js hover:cursor-pointer md:text-lg font-semibold flex items-center justify-between"
+        >
+          Can I use Frontend Mentor projects in my portfolio?
+          <img
+            class="icon plus"
+            src="assets/images/icon-plus.svg"
+            alt="plus icon"
+          />
+          <img
+            class="icon minus"
+            src="assets/images/icon-minus.svg"
+            style="display: none"
+            alt="minus icon"
+          />
+        </summary>
+
+        <p class="py-4 border-b-1 text-GrayishPurple">
+          Yes, you can use projects completed on Frontend Mentor in your
+          portfolio. It's an excellent way to showcase your skills to potential
+          employers!
+        </p>
+      </details>
+      <hr />
+      <!-- FOURTH -->
+      <details class="py-4 md:py-6">
+        <summary
+          class="title.js hover:cursor-pointer md:text-lg font-semibold flex items-center justify-between"
+        >
+          How can I get help if I'm stuck on a challenge?
+          <img
+            class="icon plus"
+            src="assets/images/icon-plus.svg"
+            alt="plus icon"
+          />
+          <img
+            class="icon minus"
+            src="assets/images/icon-minus.svg"
+            style="display: none"
+            alt="minus icon"
+          />
+        </summary>
+
+        <p class="py-4 border-b-1 text-GrayishPurple">
+          The best place to get help is inside Frontend Mentor's Discord
+          community. There's a help channel where you can ask questions and seek
+          support from other community members.
+        </p>
+      </details>
+      <hr />
+    </main>
+    <footer class="hidden md:block pt-3">
+      <div class="attribution">
+        Challenge by
+        <a
+          class="underline text-purple-700 font-semibold"
+          href="https://www.frontendmentor.io?ref=challenge"
+          target="_blank"
+          >Frontend Mentor</a
+        >. Coded by
+        <a class="underline font-semibold text-purple-700" href="#">John Pugh</a
+        >.
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
